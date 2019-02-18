@@ -1,0 +1,79 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "4PnssXOKq//AJMg/TEv9aA4n/t8=",
+			"path": "github.com/braintree/manners",
+			"revision": "82a8879fc5fd0381fa8b2d8033b19bf255252088",
+			"revisionTime": "2016-04-18T04:36:13Z"
+		},
+		{
+			"checksumSHA1": "BhMowD2DIKSd9qq8Pzh7Y3mh2/w=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
+			"revisionTime": "2017-01-09T09:34:21Z"
+		},
+		{
+			"checksumSHA1": "QJyvtmq7eOF2922RBVwEeGvmtyY=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "631cfbd1ef2374f5a01f5d17ed8c8f08779ad6fe",
+			"revisionTime": "2018-08-05T05:29:26Z"
+		},
+		{
+			"checksumSHA1": "7NcNHPRI7I8XPF+abQTFcrSnKO8=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "631cfbd1ef2374f5a01f5d17ed8c8f08779ad6fe",
+			"revisionTime": "2018-08-05T05:29:26Z"
+		},
+		{
+			"checksumSHA1": "ZrBlc4nW5joRSLLRThHlxU+bWtg=",
+			"path": "github.com/gin-gonic/gin/json",
+			"revision": "631cfbd1ef2374f5a01f5d17ed8c8f08779ad6fe",
+			"revisionTime": "2018-08-05T05:29:26Z"
+		},
+		{
+			"checksumSHA1": "7lVWMuL88LIWixvu89qZ9l/kXHw=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "631cfbd1ef2374f5a01f5d17ed8c8f08779ad6fe",
+			"revisionTime": "2018-08-05T05:29:26Z"
+		},
+		{
+			"checksumSHA1": "fTJ7w+U/xUncdC5XoVpczYQyQug=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "05f48f4eaf0e05663b562bab533cdd472238ce29",
+			"revisionTime": "2018-06-06T20:26:30Z"
+		},
+		{
+			"checksumSHA1": "kum8izZy1+pVfDiApW5hT2HoH1w=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c",
+			"revisionTime": "2017-11-07T05:05:31Z"
+		},
+		{
+			"checksumSHA1": "/tsqGVWIra64Q754999Xa+nuOmg=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "0e8ffdb13c81bdb48fa80a963cf83f10a0f5a496",
+			"revisionTime": "2018-07-27T09:20:40Z"
+		},
+		{
+			"checksumSHA1": "HyvwgEh7Ja47KY376Mah02WDLEc=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "151529c776cdc58ddbe7963ba9af779f3577b419",
+			"revisionTime": "2018-04-04T02:59:38Z"
+		},
+		{
+			"checksumSHA1": "q190bL03wQok3wVwYmMub2XhOiU=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f1438d3fca68893a817e4a66806cea46a9e4ebf",
+			"revisionTime": "2017-07-30T05:02:35Z"
+		},
+		{
+			"checksumSHA1": "d3jYBfW+YmOxsa5o8m6XyywVbIo=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "5420a8b6744d3b0345ab293f6fcba19c978f1183",
+			"revisionTime": "2018-03-28T19:50:20Z"
+		}
+	],
+	"rootPath": "github.com/scottPlusPlus/hackserver"
+}

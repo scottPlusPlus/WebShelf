@@ -1,0 +1,37 @@
+<html>
+<head>
+    <style>
+        div.code {
+          background-color: f3f3f3;
+          padding: 1em;
+        }
+    </style> 
+</head>
+
+<body>
+  <div class="container">
+    <h2>WebShelf</h2>
+    <p><a href="https://github.com/scottPlusPlus/WebShelf">Open Source on GitHub</a></p>
+    <p>A quick HTTP webserver for stashing some data<br>
+    Data is not persisted and will be lost when the server shuts down.<br>
+    Make a PUT or POST request to /:table to append<br>
+    Make a PUT or POST request to /:table/:itemKey to set<br></p>
+
+    <h4>Example:</h4>
+    <div class="code">
+        WebShelf.exe -port=3001<br>
+        curl http://localhost:3001/foo -d "here is my data"  <i>//"success"</i><br>
+        curl http://localhost:3001/foo  <i>//{"1":"here is my data"}</i><br>
+    </div>
+
+    <h4>Data:</h4>
+    <a href="/admin/all">admin/all</a> - see all stored items<br>
+    <div>
+          {{range .Items}}
+          <a href={{.}}>{{.}}</a><br>
+          {{end}}
+    </div>
+  </div>
+
+</body>
+</html>
